@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+    	android:id="@+id/calibrate"
+    	android:icon="@drawable/calibrate"
+        android:title="@string/calibrate"
+        android:showAsAction="always|withText" />
+ 
+    <item
+    	android:id="@+id/share"
+    	android:icon="@drawable/share"
+        android:title="@string/share"
+        android:showAsAction="always|withText" />
+    <item
+    	android:id="@+id/moreapps"
+    	android:icon="@drawable/moreapps"
+        android:title="@string/more_app"
+        android:showAsAction="always|withText" />
+    
+    <item
+    	android:id="@+id/preferences"
+    	android:icon="@drawable/settings"
+        android:title="@string/preferences"
+        android:showAsAction="ifRoom|withText" />
+     <item
+    	android:id="@+id/about"
+    	android:icon="@drawable/abouticon"
+        android:title="@string/about"
+        android:showAsAction="ifRoom|withText" />
+    
+    <item
+    	android:id="@+id/close"
+    	android:icon="@drawable/close"
+        android:title="@string/close"
+        android:showAsAction="ifRoom|withText" />
+        
+</menu>
